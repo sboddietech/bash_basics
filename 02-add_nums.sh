@@ -44,3 +44,4 @@ read numPeople
 echo ""
 numTotal=$(($numAnimals + $numPeople))
 echo "You have ${numTotal} entities living with you."
+
