@@ -32,4 +32,15 @@ read height
 
 echo ""
 pixelTotal=$(( $width * $height ))
-echo "Your display has ${pixelTotal} pixels." 
+echo "Your display has ${pixelTotal} pixels."
+
+echo ""
+echo "How many fiction books do you own?"
+read fiction
+echo ""
+echo "How many nonfiction books do you own?"
+read nonfiction
+
+echo ""
+totalBooks=$(( $fiction * $nonfiction ))
+echo "You own ${totalBooks} books." 
