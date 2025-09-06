@@ -33,3 +33,14 @@ read height
 echo ""
 pixelTotal=$(( $width * $height ))
 echo "Your display has ${pixelTotal} pixels." 
+
+echo ""
+echo "What is your number of animals owned"
+read numAnimals
+echo ""
+echo "How many people live with you?"
+read numPeople
+
+echo ""
+numTotal=$(($numAnimals + $numPeople))
+echo "You have ${numTotal} entities living with you."
